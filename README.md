@@ -14,7 +14,7 @@ ssh anyone@anyplace.com -D 9999
 # simply toggle
 ./toggle_socks_proxy.sh
 
-# turn on PORT, e.g. 1234
+# turn on and use specific PORT, e.g. 1234, if it's currently off
 ./toggle_socks_proxy.sh [PORT]
 
 # see help message
